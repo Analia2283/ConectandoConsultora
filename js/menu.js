@@ -12,13 +12,19 @@ document.addEventListener("DOMContentLoaded", ()=>{
         menu.classList.remove('nav__link--show');
     });
 
+});
     navLinks.forEach(link => { 
         link.addEventListener('click', () => { 
             menu.classList.remove('nav__link--show'); 
+        })
+    navLinks.forEach(link => { 
+        link.addEventListener('click', () => { 
+            menu.classList.remove('nav__link--show'); 
+
         });
     });
 
     
 
-
+    
 });
